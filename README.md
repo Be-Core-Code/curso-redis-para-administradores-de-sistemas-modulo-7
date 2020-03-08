@@ -1,14 +1,20 @@
-# Diapositivas del Curso [NOMBRE DEL CURSO] - Módulo [MODULO]: [TÍTULO DEL MÓDULO]
+# Diapositivas del Curso Redis para Administradores de Sistemas - Módulo 7: Despliegues en entornos de producción
 
 ## Índice
 
+* Configuración de Linux
+* Securización
+* Configuración de conexiones de clientes
+* Memory Policy
+* Benchmarking
+* Logging
 
 ## Visualización
 
 Para ver las diapositivas:
 
 ```bash
-> docker run --rm -p "8000:8000" becorecode/[SLUG DEL CURSO]-modulo-[MODULO]:latest
+> docker run --rm -p "8000:8000" becorecode/curso-redis-para-administradores-de-sistemas-modulo-7:latest
 ```
 
 Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8000`
@@ -49,7 +55,7 @@ Finalmente, levantamos el contenedor:
 > docker-compose up
 ```
 
-Puedes acceder a las diapositivas en `localhost:[PUERTO]`. Haz los cambios que necesites en las diapositovas situadas en la carpeta
+Puedes acceder a las diapositivas en `localhost:8007`. Haz los cambios que necesites en las diapositovas situadas en la carpeta
 `slides/` y recarga el navegador para ver el resultado.
 
 Si quieres cambiar el puerto, puedes detener los servicios con `docker-compose down`, editar el fichero 
