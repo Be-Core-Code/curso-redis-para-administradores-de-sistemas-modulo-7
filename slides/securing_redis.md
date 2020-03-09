@@ -130,3 +130,14 @@ rename_command CONFIG ""
 
 Renombrar comandos que quedan registrados en el fichero AOF (por ejemplo GET, HMSET, ZADD, etc)
 o que se transmiten a las réplicas puede dar problemas y no se recomienda.
+
+
+^^^^^^
+
+### Securizando Redis: ACLs y SSL
+
+A partir de la versión 6.0, Redis incorpora [ACLs](https://redis.io/topics/acl) y 
+[SSL](https://redis.io/topics/encryption)
+
+En el momento de elaboración de este curso, redis 6.0 todavía estaba en estado _release cadidate_
+por lo que no se ha incluido más información al respecto. 
