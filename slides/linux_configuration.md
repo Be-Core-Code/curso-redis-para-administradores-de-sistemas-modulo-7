@@ -116,7 +116,7 @@ restarted after THP is disabled.
 
 ### Configuración de Linux: net.core.somaxconn 
 
-`net.core.somaxconn` marca el tamaño máximo del backlog de la función `listec()` del socket.
+`net.core.somaxconn` marca el tamaño máximo del backlog de la función `listen()` del socket TCP.
 
 Si es muy corto y tenemos muchos clientes conectándose a Redis, las conexiones se empezarán
 a no aceptar (`DROP`)
